@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext",
+    "outDir": "./dist",
+    "downlevelIteration": true,
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "ESNext"
+    ]
+  }, 
+  "include": [
+    "./src/**/*.ts"
+  ],
+}
