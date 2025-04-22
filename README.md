@@ -1,4 +1,4 @@
-# Morgen Motivations Bot
+# MorgenMotivationsBot
 <div>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/philpinsdorf/MorgenMotivationsBot?style=for-the-badge">
   <img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/philpinsdorf/MorgenMotivationsBot?color=purple&style=for-the-badge">
