@@ -46,7 +46,9 @@ export function start_bot(): Promise<void> {
             const user = await user_exists(chat_id);
 
             if(!user) {
-                ctx.reply(replys.only_after_start());
+                ctx.reply(
+                    escape_message(replys.only_after_start())
+                );
                 console.warn(`${name}/${chat_id}: Failed to send Motivation.`);
                 return;
             }
@@ -62,8 +64,8 @@ export function start_bot(): Promise<void> {
 export async function suggest_commands(): Promise<void> {
     await bot.api.setMyCommands([
         { command: "motivate", description: "Motivate yourself." },
-        { command: "start", description: "Subscribe to daily canteen updates." },
-        { command: "stop", description: "Unsubscribe from daily canteen updates." },
+        { command: "start", description: "Subscribe to daily motivational quotes." },
+        { command: "stop", description: "Unsubscribe from daily motivational quotes." },
     ]);
 }
 

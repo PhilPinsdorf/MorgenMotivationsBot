@@ -63,8 +63,8 @@ export const emojis: string[] = [
 ];
 
 export const replys: { [key: string]: (...args: string[]) => string } = {
-  start: (name: string) => `Danke ${name}, dass du dich für den Dienst angemeldet hast! \n\nDu bekommst ab jetzt jeden Tag um \*5:00 Uhr\* eine Motivation für den Tag. Falls du zwischendurch motivation brauchst, kannst du das jederzeit mit /motivate dir einholen.\n\nMit /stop kannst du dich von diesem Dienst wieder abmelden. \n\nBei Rückfragen oder Bugs, schreibe @philpinsdorf auf Telegram an.`,
-  stop: (name: string) => `Vielen Dank ${name}, dass du meinen Dienst verwendet hast. \n\nDu hast hiermit deinen Account \*gelöscht\* und wirst in Zukunft \*keine Benachichtigungen\* mehr bekommen. \n\nFalls du dich doch umentscheiden solltest kannst du jederzeit dich mit /start wieder anmelden.`,
+  start: (name: string) => `Danke ${name}, dass du dich für den Dienst angemeldet hast! \n\nDu bekommst ab jetzt jeden Tag um *5:00 Uhr* eine Motivation für den Tag. Falls du zwischendurch motivation brauchst, kannst du das jederzeit mit /motivate dir einholen.\n\nMit /stop kannst du dich von diesem Dienst wieder abmelden. \n\nBei Rückfragen oder Bugs, schreibe @philpinsdorf auf Telegram an.`,
+  stop: (name: string) => `Vielen Dank ${name}, dass du meinen Dienst verwendet hast. \n\nDu hast hiermit deinen Account *gelöscht* und wirst in Zukunft *keine Benachichtigungen* mehr bekommen. \n\nFalls du dich doch umentscheiden solltest kannst du jederzeit dich mit /start wieder anmelden.`,
   only_after_start: () => `Du musst diesen Dienst erst mit /start abbonieren!`,
   already_registered: () => `Du hast dich bereits registriert.`,
   already_deleted: () => `Dein Account wurde bereits gelöscht.`,
