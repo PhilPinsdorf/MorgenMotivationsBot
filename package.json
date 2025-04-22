@@ -1,6 +1,6 @@
 {
   "name": "morningmotivationbot",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A small Telegram Bot to motivate you every morning.",
   "main": "index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   "author": "philpinsdorf",
   "license": "MIT",
   "dependencies": {
-    "grammy": "^1.32.0",
-    "moment": "^2.29.4",
+    "dotenv": "^16.5.0",
+    "grammy": "^1.36.1",
     "mongo-sanitize": "^1.1.0",
-    "mongoose": "^8.8.4",
-    "node-schedule": "^2.1.0"
+    "mongoose": "^8.13.2",
+    "node-schedule": "^2.1.1"
   },
   "engines": {
-    "node": "^22.12.0"
+    "node": "^23.11.0"
   },
   "devDependencies": {
     "@grammyjs/types": "^3.16.0",

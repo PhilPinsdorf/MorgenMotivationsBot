@@ -3,7 +3,9 @@ import { connect } from 'mongoose';
 import * as schedule from 'node-schedule'; 
 import { start_bot, suggest_commands } from './telegram_bot';
 import { send_all } from "./messages/send_messages";
+import dotenv from 'dotenv';
 
+dotenv.config();
 export const bot = new Bot(process.env.BOT_SECRET as string);
 const dbUri = process.env.DB_URI as string;
 run();
