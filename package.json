@@ -1,6 +1,6 @@
 {
   "name": "morningmotivationbot",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small Telegram Bot to motivate you every morning.",
   "main": "index.js",
   "scripts": {
