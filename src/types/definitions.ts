@@ -45,6 +45,21 @@ export const motivations: string[] = [
   "Nur wer schwitzt, kann von wahrer Arbeit reden.",
   "Nur wer leidet ist ein Gewinner.",
   "Work smart. Win hard.",
+  "Lieber viel Meinung als viel Ahnung.",
+  "Nachts ist es kälter als draußen.",
+  "Ist ja wie aufm Bau, einer macht, alle gucken.",
+  "Irgendwo ist immer 4.",
+  "Ein Haufen Krümel sind auch ein Brot.",
+  "Am Arsch sind die Kälber fett.",
+  "Am Ende der Jagd werden die Hasen gezählt.",
+  "Wer später bremst ist länger schnell.",
+  "Wer bremst verliert.",
+  "Nichts wird so heiß gegessen wies gekocht wird.",
+  "Arbeit ist die beste Jacke.",
+  "Mal verliert man, mal gewinnen die anderen.",
+  "Nur die Harten komm in den Garten.",
+  "Wer den Cent nicht ehrt ist den Euro nicht wert",
+  "Viele Hände, schnelles Ende.",
 ];
 
 export const emojis: string[] = [
