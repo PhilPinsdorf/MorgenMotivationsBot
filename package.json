@@ -1,12 +1,13 @@
 {
   "name": "morningmotivationbot",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A small Telegram Bot to motivate you every morning.",
   "main": "index.js",
   "scripts": {
     "start": "node dist/index.js",
     "watch-node": "nodemon dist/index.js",
-    "watch-ts": "tsc -w"
+    "watch-ts": "tsc -w",
+    "build": "tsc"
   },
   "author": "philpinsdorf",
   "license": "MIT",
