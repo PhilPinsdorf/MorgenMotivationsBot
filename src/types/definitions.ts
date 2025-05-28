@@ -60,6 +60,9 @@ export const motivations: string[] = [
   "Nur die Harten komm in den Garten.",
   "Wer den Cent nicht ehrt ist den Euro nicht wert",
   "Viele Hände, schnelles Ende.",
+  "Ein Indianerherz kennt keinen Schmerz.",
+  "Wer rastet, der rostet.",
+  "Wo ein Wille, da ein Weg.",
 ];
 
 export const emojis: string[] = [
